@@ -58,7 +58,7 @@ class VkServiceDispatcher
      * @return array
      * @throws VkException
      */
-    public function getCategories ($count, $offset = '') {
+    public function getCategories ($count=100, $offset = '') {
         return $this->productService->getCategories($count, $offset);
     }
 
